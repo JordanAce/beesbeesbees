@@ -4,6 +4,8 @@ describe('Bee class functionality', function() {
 
   beforeEach(function() {
     bee = new Bee();
+    // bee.prototype = Object.create(Grub.prototype)
+    // bee.prototype.constructor = bee;
   });
 
   /*  Overwrite methods from superclass  */
